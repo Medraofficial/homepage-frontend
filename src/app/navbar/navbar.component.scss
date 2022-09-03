@@ -15,6 +15,11 @@
     color: white;
     margin: auto;
     list-style: none;
+    cursor: pointer;
+}
+
+.navbar > li:hover {
+    color: var(--hover-color)
 }
 
 .social-container {
