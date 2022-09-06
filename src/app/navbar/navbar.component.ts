@@ -42,15 +42,12 @@ export class NavbarComponent implements OnInit {
           merch.style.color = getComputedStyle(document.documentElement).getPropertyValue('--hover-color');   
         break;
       }
+    }
 
-      case "/band":
-      {
-        const band = document.getElementById('band');
-        if (band != null)
-          band.style.color = getComputedStyle(document.documentElement).getPropertyValue('--hover-color');   
-        break;
-      }
+    if (this.router.url == "/band" || this.router.url == "/band/member") {
+      const band = document.getElementById('band');
+      if (band != null)
+        band.style.color = getComputedStyle(document.documentElement).getPropertyValue('--hover-color');  
     }
   }
-
 }

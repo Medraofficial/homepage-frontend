@@ -1,0 +1,46 @@
+.image-container {
+    background-color: white;
+    width: 100%;
+    height: calc(100% - 9vh);
+    top: 9vh;
+    left: 0;
+    position: absolute;
+}
+
+.band-picture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5vh;
+    width: 50%;
+}
+
+.table-container {
+    display: flex;
+    justify-content: center;
+}
+
+.band-table {
+    margin-top: 2vh;
+}
+
+.band-member {
+    text-align: center;
+    border: 1px solid black;
+    border-top: none;
+    border-bottom: none;
+    cursor: pointer;
+}
+
+.band-member > th:hover {
+    //TODO Hover when selecting bandmember
+    background-color: yellow;
+}
+
+.member-info {
+    text-align: center;
+    border: 1px solid black;
+    border-top: none;
+    border-bottom: none;
+    cursor: pointer;
+}
