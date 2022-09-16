@@ -12,7 +12,12 @@ const routes: Routes = [
   {path: 'music', component: MusicComponent},
   {path: 'merch', component: MerchComponent},
   {path: 'band', component: BandComponent},
-  {path: 'band/member', component: BandmemberComponent},
+  {path: 'band/Gregor', component: BandmemberComponent},
+  {path: 'band/Jannick', component: BandmemberComponent},
+  {path: 'band/Luka', component: BandmemberComponent},
+  {path: 'band/Ramona', component: BandmemberComponent},
+  {path: 'band/Tobias', component: BandmemberComponent},
+  {path: 'band/Milo', component: BandmemberComponent},
 ];
 
 @NgModule({

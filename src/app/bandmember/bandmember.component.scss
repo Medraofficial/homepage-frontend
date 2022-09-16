@@ -1,0 +1,28 @@
+.member-container {
+    height: calc(100% - 9vh);
+    top: 9vh;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    width: 50%;
+    margin-left: 50%;
+    background-color: rebeccapurple;
+}
+
+.text-container {
+    margin-top: 10%;
+}
+
+.img-container {
+    background-color: aqua;
+    width: 50%;
+    position: absolute;
+    top: 9vh;
+    left: 0;
+    height: calc(100% - 9vh);
+}
+
+.member-img {
+    margin-top: 7.5%;
+    margin-left: 25%;
+}

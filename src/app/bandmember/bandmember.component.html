@@ -1,8 +1,17 @@
 <app-navbar></app-navbar>
 
-<div>Gregor</div>
-<div>Jannick</div>
-<div>Luka</div>
-<div>Ramona</div>
-<div>Tobias</div>
-<div>Milo</div>
+<div class="member-container">
+    <div class="text-container">
+        <h3>{{memberName}}</h3>
+        <div>{{memberDescription}}</div>
+        <h3>Top 3</h3>
+        <div>{{memberTop}}</div>
+    </div>
+</div>
+
+<div class="img-container">
+    <img class="member-img" [src]="memberImg" width="50%" height="auto"/>
+</div>
+
+
+

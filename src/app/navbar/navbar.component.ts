@@ -17,37 +17,30 @@ export class NavbarComponent implements OnInit {
   }
 
   checkRoute() {
-    switch(this.router.url)
-    {
-      case "/news": 
-      {
-        const news = document.getElementById('news');
-        if (news != null)
-          news.style.color = getComputedStyle(document.documentElement).getPropertyValue('--hover-color');   
-        break;
-      }
 
-      case "/music":
-      {
-        const music = document.getElementById('music');
-        if (music != null)
-          music.style.color = getComputedStyle(document.documentElement).getPropertyValue('--hover-color');   
-        break;
-      }
+    let hoverColor = getComputedStyle(document.documentElement).getPropertyValue('--hover-color')
 
-      case "/merch":
-      {
-        const merch = document.getElementById('merch');
-        if (merch != null)
-          merch.style.color = getComputedStyle(document.documentElement).getPropertyValue('--hover-color');   
-        break;
-      }
+    if (this.router.url.startsWith('/news')) {
+      const news = document.getElementById('news');
+      if (news != null)
+        news.style.color = hoverColor
+    }
+    else if (this.router.url.startsWith('/music')) {
+      const music = document.getElementById('music');
+      if (music != null)
+        music.style.color = hoverColor
     }
 
-    if (this.router.url == "/band" || this.router.url == "/band/member") {
+    else if (this.router.url.startsWith('/merch')) {
+      const merch = document.getElementById('merch');
+      if (merch != null)
+        merch.style.color = hoverColor
+    }
+
+    else if (this.router.url.startsWith('/band')) {
       const band = document.getElementById('band');
       if (band != null)
-        band.style.color = getComputedStyle(document.documentElement).getPropertyValue('--hover-color');  
+        band.style.color = hoverColor
     }
   }
 }
