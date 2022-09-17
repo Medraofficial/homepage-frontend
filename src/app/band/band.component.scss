@@ -32,9 +32,9 @@
     cursor: pointer;
 }
 
-.band-member > th:hover {
-    //TODO Hover when selecting bandmember
-    background-color: yellow;
+.band-member:hover, 
+.member-info:hover {
+    color: red
 }
 
 .member-info {
@@ -43,4 +43,5 @@
     border-top: none;
     border-bottom: none;
     cursor: pointer;
+
 }
