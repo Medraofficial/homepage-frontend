@@ -67,7 +67,7 @@ export class BandmemberComponent implements OnInit {
         this.memberTopBands = "We Came As Romans, Ice Nine Kills, Imminence";
         this.memberTopAlben = "Caskets - Lost Souls, Lorna Shore - Pain Remains, Ice Nine Kills - The Silver Scream";
         this.memberTopFilme = "The Dark Knight, Prinzessin Mononoke, Constantine";
-        this.memberTopSerien = "Jujutsu Kaisen, Vampire Knight, Chainsaw Man";
+        this.memberTopSerien = "Jujutsu Kaisen, The Vision of Escaflowne, Chainsaw Man";
         this.memberTopSpiele = "Resident Evil 4, Persona 5, Crash Bandicoot";
         break;
     
@@ -86,10 +86,10 @@ export class BandmemberComponent implements OnInit {
         this.memberImg = './assets/band/milo.jpg';
         this.memberName = 'Milo Randermann';
         this.memberDescription = "Hi, mein Name ist Milo, ich bin 19 Jahre alt und der Drummer der Metalband Medra. Die Bands Massendefekt, Silverstein und The Ghost Inside inspirieren mich als Drummer und schenken mir immer wieder neuen Input. Das wirkt sich natürlich auch auf unsere eigene Musik aus, die durch die verschiedene Metalgenres positiv beeinflusst wird. Neben der Musik zocke ich gerne und ich bin ein begeisterterer Motorradfahrer."
-        this.memberTopBands = "placeholder";
-        this.memberTopAlben = "placeholder";
-        this.memberTopFilme = "Indiana Jones and the Last Crusade, The Empire Strikes Back, Film 3";
-        this.memberTopSerien = "How I Met Your Mother, Serie 2, Serie 3";
+        this.memberTopBands = "The Ghost Inside, Silverstein, Die Toten Hosen";
+        this.memberTopAlben = "Casey - Where I Go When I Am Sleeping, Die Toten Hosen - Nur zu Besuch: Unplugged im Wiener Burgtheater, Massendefekt - Tangodiesel";
+        this.memberTopFilme = "Indiana Jones and the Last Crusade, The Empire Strikes Back, Inglourious Basterds";
+        this.memberTopSerien = "Star Wars: The Clone Wars, How I Met Your Mother, Family Guy";
         this.memberTopSpiele = "The Legend of Zelda: Twilight Princess, Pokémon Platin-Edition, Star Wars: Battlefront II (2005)";        
         break;
     }
