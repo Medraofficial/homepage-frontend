@@ -52,7 +52,7 @@ export class BandmemberComponent implements OnInit {
       case "/band/Luka":
         this.memberImg = './assets/band/luka.jpg'
         this.memberName = 'Luka Schierenberg';
-        this.memberDescription = 'placeholder';
+        this.memberDescription = 'Ich bin Luka, 22 Jahre alt und einer der beiden Vocalists der Band Medra. Mein Spezialgebiet sind Growls und meine musikalischen Einflüsse kommen aus dem Hardcore Beatdown und dem Metalcore. Dazu zählen Bands wie Knocked Loose, Malevolence und Nasty aus dem Hardcore und Caliban, Bury Tomorrow und Landmvrks aus dem Metalcore. Weitere Hobbys von mir sind unter anderem Gaming, Lego, Kochen und auf Konzerte anderer Bands zu gehen, um mich weiter inspirieren zu lassen.';
         this.memberTopBands = "Malevolence, Nasty, Knocked Loose";
         this.memberTopAlben = "Thy Art Is Murder - Hate, Landmvrks - Fantasy, Knocked Loose - Laugh Tracks";
         this.memberTopFilme = "Star Wars: Episode III – Revenge of the Sith, Spider-Man 2 (2004), Rogue One";
