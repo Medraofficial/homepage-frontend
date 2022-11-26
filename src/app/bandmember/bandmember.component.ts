@@ -63,7 +63,7 @@ export class BandmemberComponent implements OnInit {
       case "/band/Ramona":
         this.memberImg = './assets/band/ramona.jpg'
         this.memberName = 'Ramona Born';
-        this.memberDescription = 'placeholder';
+        this.memberDescription = 'Mein Name ist Ramona, ich bin 32 Jahre alt und Vocalist der Metalband Medra. Meine Vocals sind classic und clean, da ich selbst ursprünglich aus der Klassik komme, mein Zuhause aber im Metalgenre habe. Alles fing damals mit Linkin Park an, mittlerweile sind aber Bands wie Ice Nine Kills, We Came As Romans und Of Mice And Men, die allesamt aus dem Metalcore Bereich stammen, fester Bestandteil meines Musikgeschmacks. Nebenbei lese ich noch ziemlich gerne, bin Hobby-Autorin und ein Otaku durch und durch.';
         this.memberTopBands = "We Came As Romans, Ice Nine Kills, Imminence";
         this.memberTopAlben = "Caskets - Lost Souls, Lorna Shore - Pain Remains, Ice Nine Kills - The Silver Scream";
         this.memberTopFilme = "The Dark Knight, Prinzessin Mononoke, Constantine";
