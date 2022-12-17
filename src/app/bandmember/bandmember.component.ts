@@ -30,7 +30,7 @@ export class BandmemberComponent implements OnInit {
       case "/band/Marcel":
         this.memberImg = './assets/band/marcel.jpg'
         this.memberName = 'Marcel Romberg';
-        this.memberDescription = 'test description';
+        this.memberDescription = 'Mein Name ist Marcel, ich bin 22 und Rhythmusgitarrist bei Medra. Meine musikalischen Einflüsse kommen aus dem Metalcore, aus dem Djent und dem Nu Metal. Meine Inspiration verdanke ich unter anderem Bands wie Meshuggah, Hacktivist und As I Lay Dying. Ebenfalls bin ich ein leidenschaftlicher Zocker und Powerlifter, entspanne mich aber auch gerne mal vor dem Fernseher und schaue Animes.';
         this.memberTopBands = "Meshuggah, Hacktivist, Humanity's Last Breath";
         this.memberTopAlben = "Humanity's Last Breath - Välde, Meshuggah - Nothing, Bleed from Within - Fracture";
         this.memberTopFilme = "Der Herr der Ringe, Rebuild of Evangelion, Interstellar";
@@ -45,7 +45,7 @@ export class BandmemberComponent implements OnInit {
         this.memberTopBands = "Meshuggah, Rings of Saturn, Sabaton";
         this.memberTopAlben = "Meshuggah - Obzen, Rings of Saturn - Margidda, Sabaton - Carolus Rex";
         this.memberTopFilme = "Terminator 2, A Nightmare on Elm Street, Robocop";
-        this.memberTopSerien = "Naruto, Angry Video Game Nerd, Peaky Blinders";
+        this.memberTopSerien = "South Park, Angry Video Game Nerd, Peaky Blinders";
         this.memberTopSpiele = "Devil May Cry, Blood: Fresh Supply, Dark Souls";
         break;
      
