@@ -48,22 +48,11 @@ export class BandmemberComponent implements OnInit {
         this.memberTopSerien = "South Park, Angry Video Game Nerd, Peaky Blinders";
         this.memberTopSpiele = "Devil May Cry, Blood: Fresh Supply, Dark Souls";
         break;
-     
-      case "/band/Luka":
-        this.memberImg = './assets/band/luka.jpg'
-        this.memberName = 'Luka Schierenberg';
-        this.memberDescription = 'Ich bin Luka, 22 Jahre alt und einer der beiden Vocalists der Band Medra. Mein Spezialgebiet sind Growls und meine musikalischen Einflüsse kommen aus dem Hardcore Beatdown und dem Metalcore. Dazu zählen Bands wie Knocked Loose, Malevolence und Nasty aus dem Hardcore und Caliban, Bury Tomorrow und Landmvrks aus dem Metalcore. Weitere Hobbys von mir sind unter anderem Gaming, Lego, Kochen und auf Konzerte anderer Bands zu gehen, um mich weiter inspirieren zu lassen.';
-        this.memberTopBands = "Malevolence, Nasty, Knocked Loose";
-        this.memberTopAlben = "Thy Art Is Murder - Hate, Landmvrks - Fantasy, Knocked Loose - Laugh Tracks";
-        this.memberTopFilme = "Star Wars: Episode III – Revenge of the Sith, Spider-Man 2 (2004), Rogue One";
-        this.memberTopSerien = "Breaking Bad, Star Wars: The Clone Wars, The Mandalorian";
-        this.memberTopSpiele = "Metal Gear Solid 3: Snake Eater, Lego Star Wars: The Complete Saga, Pokémon SoulSilver";
-        break;
-    
+
       case "/band/Ramona":
         this.memberImg = './assets/band/ramona.jpg'
         this.memberName = 'Ramona Born';
-        this.memberDescription = 'Mein Name ist Ramona, ich bin 32 Jahre alt und Vocalist der Metalband Medra. Meine Vocals sind classic und clean, da ich selbst ursprünglich aus der Klassik komme, mein Zuhause aber im Metalgenre habe. Alles fing damals mit Linkin Park an, mittlerweile sind aber Bands wie Ice Nine Kills, We Came As Romans und Of Mice And Men, die allesamt aus dem Metalcore Bereich stammen, fester Bestandteil meines Musikgeschmacks. Nebenbei lese ich noch ziemlich gerne, bin Hobby-Autorin und ein Otaku durch und durch.';
+        this.memberDescription = 'Mein Name ist Ramona, ich bin 32 Jahre alt und Lead Vocalist der Metalband Medra. Meine Vocals sind classic und clean, da ich selbst ursprünglich aus der Klassik komme, mein Zuhause aber im Metalgenre habe. Deswegen zählen unter anderem auch Screams zu meinem musikalischen Stimmrepertoire. Alles fing damals mit Linkin Park an, mittlerweile sind aber Bands wie Ice Nine Kills, We Came As Romans und Of Mice And Men, die allesamt aus dem Metalcore Bereich stammen, fester Bestandteil meines Musikgeschmacks. Nebenbei lese ich noch ziemlich gerne, bin Hobby-Autorin und ein Otaku durch und durch.';
         this.memberTopBands = "We Came As Romans, Ice Nine Kills, Imminence";
         this.memberTopAlben = "Caskets - Lost Souls, Lorna Shore - Pain Remains, Ice Nine Kills - The Silver Scream";
         this.memberTopFilme = "The Dark Knight, Prinzessin Mononoke, Constantine";

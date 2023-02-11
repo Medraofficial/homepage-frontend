@@ -14,7 +14,6 @@ const routes: Routes = [
   {path: 'band', component: BandComponent},
   {path: 'band/Marcel', component: BandmemberComponent},
   {path: 'band/Jannick', component: BandmemberComponent},
-  {path: 'band/Luka', component: BandmemberComponent},
   {path: 'band/Ramona', component: BandmemberComponent},
   {path: 'band/Tobias', component: BandmemberComponent},
   {path: 'band/Milo', component: BandmemberComponent},
